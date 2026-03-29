@@ -1,0 +1,28 @@
+git clone <URL>
+    - clonar en ambito local el repositorio para trabajarlo
+
+git status 
+    - me indica los cambios que han habido en el repositorio desde el ultimo que guarde en el repositorio online
+        - cambios incluyen archivos nuevos, cambios en archivos previamente creados o eliminacion de archivos
+
+git add <file>
+    - Guarda modificaciones de los archivos
+        - modificaciones tales como cambios, crear o eliminar
+
+git restore <file>
+    - Vuelve al ultimo "git add" (funciona como volver al ultimo quicksave)
+
+git commit -m "breve comentario respecto a los cambios"
+    - Primer paso para actualizar en GitHub
+
+git push origin <branch>
+    - segundo paso para actualizar GitHub
+
+git checkout -b <branch>
+    - crea una nueva rama, <branch> se cambia por el nombre de la nueva rama
+
+git checkout <branch>
+    - te cambia entre ramas existentes
+
+git branch
+    - te indica en que rama estas
