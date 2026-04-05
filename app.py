@@ -83,8 +83,6 @@ with st.expander("Visualizador de series"):
     end:str=last_labour_day()
     start:str=n_years_date(day=end, n=3)
     st.text_input("SeriesID", key="seriesid", value= None)
-    if st.session_state.serie_name == None:
-        st.session_state.serie_name = st.session_state.seriesid
     st.text_input("Nombre de Serie", key="serie_name", value=None)
     st.date_input("Fecha De Inicio", key="start", format="YYYY-MM-DD", value=start)
     st.date_input("Fecha De Termino", key="end", format="YYYY-MM-DD", value=end)
