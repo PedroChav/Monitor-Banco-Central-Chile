@@ -1,0 +1,4 @@
+streamlit
+bcchapi
+pandas
+numpy
